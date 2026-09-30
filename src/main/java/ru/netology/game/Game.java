@@ -28,7 +28,7 @@ public class Game {
             throw new NotRegisteredException(playerName1);
         }
         if (player2 == null) {
-            throw new RuntimeException(playerName2);
+            throw new NotRegisteredException(playerName2);
         }
         if (player1.getStrength() > player2.getStrength()) {
             return 1;
