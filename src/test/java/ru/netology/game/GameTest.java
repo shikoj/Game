@@ -9,7 +9,6 @@ public class GameTest {
     Player player1 = new Player(1, "RUS", 100);
     Player player2 = new Player(2, "USA", 80);
     Player player3 = new Player(3, "GER", 100);
-    Player player4 = new Player(4, "FR", 10);
 
     @BeforeEach
     void setup() {
